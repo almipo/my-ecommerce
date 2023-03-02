@@ -1,7 +1,7 @@
 [    
     {"id":1, "producto":"producto 1", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
-    {"id":3, "producto":"producto 2", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
+    {"id":3, "producto":"producto 2", "stock":50, "precio":20, "img":"src:", "descripcion":""  },
     {"id":2, "producto":"producto 3", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
-    {"id":4, "producto":"producto 5", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
+    {"id":4, "producto":"producto 5", "stock":50, "precio":85, "img":"src:", "descripcion":""  },
     {"id":5, "producto":"producto 4", "stock":50, "precio":100, "img":"src:", "descripcion":""  }
 ]

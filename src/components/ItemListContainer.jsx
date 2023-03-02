@@ -6,38 +6,40 @@ import ItemList from './ItemList';
 
 //console.log(data)
 
-
-const ItemListContainer = () => {
-    const sartenes = sartenes
-    
+const ItemListContainer = ({greeting}) => {
+   
     const getData = () =>{
         return new Promise ((resolve, reject)=>{
             if (data.lenght == 0){
                 reject (new Error("no hay datos"));
             }
             setTimeout(()=>{
-                resolve(data);
+                resolve (data);
             },2000)
-        });
+        })
+    
     };
+
     
     async function fetchingData(){
         try{
             const dataFetched = await getData();
             console.log(dataFetched);
         } catch (err){
-            console.log(er);
+            console.log(err);
         }
     }
     
     fetchingData()
     
-    
-    return (
-        <div>
-            <ItemList sartenes={sartenes}/>
-        </div>
-    )
-}
+        return (
+                <div>
+                    <h1>{greeting}</h1>
+                    
+                    <ItemList data={data}/>
+                </div>
+        )
+    }
+
 
 export default ItemListContainer

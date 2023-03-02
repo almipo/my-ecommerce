@@ -15,9 +15,9 @@ const App = () => {
         <div>
           <NavBar/>
         </div>
-        
+      
         <div className='itemList'>
-          <ItemListContainer />
+          <ItemListContainer greeting={"BIENVENIDO A LA PAGINA"} />
         </div>
       
       </ChakraProvider>

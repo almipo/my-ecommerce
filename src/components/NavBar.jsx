@@ -1,6 +1,6 @@
 import React from 'react'
-import CardWidget from './CardWidget'
 import { Button, Stack } from '@chakra-ui/react'
+import CartWidget from './CartWidget'
 
 
 
@@ -27,7 +27,7 @@ const NavBar = () => {
                 </Stack>
                 <div className='cardwidget'>
                 
-                <CardWidget />
+                <CartWidget />
                     
                 </div>
 

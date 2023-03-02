@@ -5,10 +5,13 @@ import ReactDOM  from 'react-dom'
 
 
 const Item = ({id, name, stock, category, img, description}) => {
+
   return (
+  
     <div>
       <div key={id}>
-      <Card maxW='sm'>
+        
+     <Card maxW='sm'>
         <CardBody>
           <Image
             src={img}
@@ -17,7 +20,7 @@ const Item = ({id, name, stock, category, img, description}) => {
           />
           <Stack mt='6' spacing='3'>
             <Heading size='md'>{name}</Heading>
-            <Text>{descripccion}</Text>
+            <Text>{description}</Text>
             <Text color='blue.600' fontSize='2xl'>
               $450
             </Text>
@@ -31,10 +34,13 @@ const Item = ({id, name, stock, category, img, description}) => {
             </Button>
           </ButtonGroup>
         </CardFooter>
-</Card>
-      </div>
-    </div>
+  </Card>
+
+</div>
+</div>
+
   );
+  
 };
 
 export default Item
