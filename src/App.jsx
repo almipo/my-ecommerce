@@ -17,7 +17,7 @@ const App = () => {
         </div>
         
         <div className='itemList'>
-          <ItemListContainer greeting={"BIENVENIDO A LA PAGINA"}/>
+          <ItemListContainer />
         </div>
       
       </ChakraProvider>
