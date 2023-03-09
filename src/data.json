@@ -1,7 +1,7 @@
 [    
-    {"id":1, "producto":"producto 1", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
-    {"id":3, "producto":"producto 2", "stock":50, "precio":20, "img":"src:", "descripcion":""  },
-    {"id":2, "producto":"producto 3", "stock":50, "precio":100, "img":"src:", "descripcion":""  },
-    {"id":4, "producto":"producto 5", "stock":50, "precio":85, "img":"src:", "descripcion":""  },
-    {"id":5, "producto":"producto 4", "stock":50, "precio":100, "img":"src:", "descripcion":""  }
+    {"id":1, "producto":"producto 1", "category":"1", "stock":50, "precio":100, "img":"https://cdn.shopify.com/s/files/1/0375/3269/6635/products/unnamed_54ab1f3e-833c-4ae5-ab23-bbaa277bee2f_1800x1800.png?v=1670026513", "descripcion":"."  },
+    {"id":3, "producto":"producto 2", "category":"2", "stock":50, "precio":20, "img":"https://cdn.shopify.com/s/files/1/0375/3269/6635/products/B2B_Web_PNG-Classic-Legendary-Food-Jar-1-0qt-Hammertone-Green_1080x.png?v=1611857528", "descripcion":""  },
+    {"id":2, "producto":"producto 3", "category":"3", "stock":50, "precio":100, "img":"https://cdn.shopify.com/s/files/1/0375/3269/6635/products/B2B_Web_PNG-Classic-Legendary-Food-Jar-1-0qt-Hammertone-Green_1080x.png?v=1611857528", "descripcion":""  },
+    {"id":4, "producto":"producto 5", "category":"1", "stock":50, "precio":85, "img":"https://cdn.shopify.com/s/files/1/0375/3269/6635/products/unnamed_54ab1f3e-833c-4ae5-ab23-bbaa277bee2f_1800x1800.png?v=1670026513", "descripcion":""  },
+    {"id":5, "producto":"producto 4", "category":"3", "stock":50, "precio":100, "img":"https://cdn.shopify.com/s/files/1/0375/3269/6635/products/B2B_Web_PNG-Classic-Legendary-Food-Jar-1-0qt-Hammertone-Green_1080x.png?v=1611857528", "descripcion":""  }
 ]

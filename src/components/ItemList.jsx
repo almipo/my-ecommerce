@@ -5,6 +5,7 @@ import { Container } from '@chakra-ui/react'
 
 
 const ItemList = ({data}) => {
+  console.log(data)
   return (
     <>
       

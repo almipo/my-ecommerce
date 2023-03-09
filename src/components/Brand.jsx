@@ -2,7 +2,7 @@ import React from 'react'
 
 const Brand = () => {
   return (
-    <div>Brand</div>
+    <img src='../src/assets/images/logo.avif' alt="" />
   )
 }
 
